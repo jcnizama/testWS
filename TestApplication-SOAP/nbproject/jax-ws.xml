@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="findAllClients">
+      <implementation-class>com.soap.services.findAllClients</implementation-class>
+    </service>
+    <service name="findAllProducts">
+      <implementation-class>com.soap.services.findAllProducts</implementation-class>
+    </service>
+    <service name="findAllOrders">
+      <implementation-class>com.soap.services.findAllOrders</implementation-class>
+    </service>
+    <service name="findOneOrders">
+      <implementation-class>com.soap.services.findOneOrders</implementation-class>
+    </service>
+    <service name="findOneProducts">
+      <implementation-class>com.soap.services.findOneProducts</implementation-class>
+    </service>
+    <service name="findOneClients">
+      <implementation-class>com.soap.services.findOneClients</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

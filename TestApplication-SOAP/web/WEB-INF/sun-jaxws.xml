@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints version="2.0" xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime">
+  <endpoint implementation="com.soap.services.findAllClients" name="findAllClients" url-pattern="/findAllClients"/>
+  <endpoint implementation="com.soap.services.findAllProducts" name="findAllProducts" url-pattern="/findAllProducts"/>
+  <endpoint implementation="com.soap.services.findAllOrders" name="findAllOrders" url-pattern="/findAllOrders"/>
+  <endpoint implementation="com.soap.services.findOneOrders" name="findOneOrders" url-pattern="/findOneOrders"/>
+  <endpoint implementation="com.soap.services.findOneProducts" name="findOneProducts" url-pattern="/findOneProducts"/>
+  <endpoint implementation="com.soap.services.findOneClients" name="findOneClients" url-pattern="/findOneClients"/>
+</endpoints>
